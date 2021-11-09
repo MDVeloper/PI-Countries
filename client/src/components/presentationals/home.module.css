@@ -1,0 +1,53 @@
+body {
+    background-image: url(./../../styles/background3.jpg);
+    color: white;
+}
+
+.listOfCountries{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 16px;
+    /* 
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+     border: solid 2px black; /
+    / backdrop-filter: blur(10px); 
+    background-color: var(--main-color);
+    width: 20em;
+    height: 25em;
+    box-sizing: border-box;
+    margin: 3em 0 3em 0;
+    border-radius: 7px;
+    */
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 16px;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 10px groove rgba(168, 168, 168, 0.3);
+    padding: 8px;
+    margin: 5px;
+    /*border: 10px double rgb(24, 255, 3);*/
+    background-clip: padding-box;
+}
+
+
+.search{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.467);
+    flex-wrap: wrap-reverse;
+}
+
+.searchButton{
+    width: 5em;
+    height: 2em;
+}

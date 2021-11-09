@@ -1,0 +1,20 @@
+.start{
+    height: 970px;
+}
+
+.img {
+    width: 30em;
+    height: 10em;
+    transition: transform 0.5s;
+}
+
+.img:hover{
+    transform:scale(1.1);
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
